@@ -1,0 +1,7 @@
+<div>
+  <h1 [style.font-size.px]="fontSize">parent Component font-{{fontSize}}</h1>
+  <input type="text" [(ngModel)]="fontSize"> 
+</div>
+<div>
+  <app-child [(size)]="fontSize"></app-child>
+</div>

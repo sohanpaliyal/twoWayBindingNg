@@ -1,0 +1,6 @@
+<div class="child">
+    <h1 [style.font-size.px]="size">child Component font-{{size}}</h1>
+    <input type="text" [(ngModel)]="size"> 
+    <button type="button" (click)="inc()">increment</button>
+  <button type="button" (click)="dec()">decrement</button>
+</div>
